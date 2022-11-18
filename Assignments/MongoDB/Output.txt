@@ -1,0 +1,154 @@
+{ "ok" : 1 }
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("63774b70e8b54b7ff503e159")
+}
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("63774b70e8b54b7ff503e15a"),
+		ObjectId("63774b70e8b54b7ff503e15b"),
+		ObjectId("63774b70e8b54b7ff503e15c")
+	]
+}
+{ "_id" : ObjectId("63774b70e8b54b7ff503e159"), "title" : "Post Title 1", "body" : "Body of post.", "category" : "News", "likes" : 1, "tags" : [ "news", "events" ], "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e15a"), "title" : "Post Title 2", "body" : "Body of post.", "category" : "Event", "likes" : 2, "tags" : [ "news", "events" ], "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e15b"), "title" : "Post Title 3", "body" : "Body of post.", "category" : "Technology", "likes" : 3, "tags" : [ "news", "events" ], "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e15c"), "title" : "Post Title 4", "body" : "Body of post.", "category" : "Event", "likes" : 4, "tags" : [ "news", "events" ], "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{
+	"_id" : ObjectId("63774b70e8b54b7ff503e159"),
+	"title" : "Post Title 1",
+	"body" : "Body of post.",
+	"category" : "News",
+	"likes" : 1,
+	"tags" : [
+		"news",
+		"events"
+	],
+	"date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)"
+}
+{ "_id" : ObjectId("63774b70e8b54b7ff503e159"), "title" : "Post Title 1", "body" : "Body of post.", "category" : "News", "likes" : 1, "tags" : [ "news", "events" ], "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "title" : "Post Title 1", "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "title" : "Post Title 2", "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "title" : "Post Title 3", "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "title" : "Post Title 4", "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+Error: error: {
+	"ok" : 0,
+	"errmsg" : "Cannot do exclusion on field date in inclusion projection",
+	"code" : 31254,
+	"codeName" : "Location31254"
+}
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e159"), "title" : "Post Title 1", "body" : "Body of post.", "category" : "News", "likes" : 2, "tags" : [ "news", "events" ], "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{
+	"acknowledged" : true,
+	"matchedCount" : 0,
+	"modifiedCount" : 0,
+	"upsertedId" : ObjectId("63774b7089f884c4bc62a4fe")
+}
+{ "acknowledged" : true, "matchedCount" : 5, "modifiedCount" : 5 }
+{ "acknowledged" : true, "deletedCount" : 1 }
+{ "acknowledged" : true, "deletedCount" : 1 }
+posts
+{ "ok" : 1 }
+books
+posts
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("63774b70e8b54b7ff503e15d"),
+		ObjectId("63774b70e8b54b7ff503e15e"),
+		ObjectId("63774b70e8b54b7ff503e15f"),
+		ObjectId("63774b70e8b54b7ff503e160"),
+		ObjectId("63774b70e8b54b7ff503e161")
+	]
+}
+{ "_id" : "Event", "totalLikes" : 8 }
+{ "_id" : "News", "totalLikes" : 3 }
+{ "_id" : null }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e159"), "title" : "Post Title 1", "body" : "Body of post.", "category" : "News", "likes" : 3, "tags" : [ "news", "events" ], "date" : "Fri Nov 18 2022 09:08:00 GMT+0000 (UTC)" }
+{ "ok" : 1 }
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("63774b70e8b54b7ff503e162"),
+		ObjectId("63774b70e8b54b7ff503e163"),
+		ObjectId("63774b70e8b54b7ff503e164"),
+		ObjectId("63774b70e8b54b7ff503e165"),
+		ObjectId("63774b70e8b54b7ff503e166")
+	]
+}
+{ "_id" : ObjectId("63774b70e8b54b7ff503e162"), "address" : { "building" : "2780", "coord" : [ -73.98241999999999, 40.579505 ], "street" : "Stillwell Avenue", "zipcode" : "11224" }, "cuisine" : "American", "name" : "Riviera Caterer" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e163"), "address" : { "building" : "7114", "coord" : [ -73.9068506, 40.6199034 ], "street" : "Avenue U", "zipcode" : "11234" }, "cuisine" : "Delicatessen", "name" : "Wilken'S Fine Food" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e164"), "address" : { "building" : "2206", "coord" : [ -74.1377286, 40.6119572 ], "street" : "Victory Boulevard", "zipcode" : "10314" }, "cuisine" : "Jewish/Kosher", "name" : "Kosher Island" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e165"), "address" : { "building" : "469", "coord" : [ -73.961704, 40.662942 ], "street" : "Flatbush Avenue", "zipcode" : "11225" }, "cuisine" : "Hamburgers", "name" : "Wendy'S" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e166"), "address" : { "building" : "1007", "coord" : [ -73.856077, 40.848447 ], "street" : "Morris Park Ave", "zipcode" : "10462" }, "cuisine" : "Bakery", "name" : "Morris Park Bake Shop" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e163"), "address" : { "building" : "7114", "coord" : [ -73.9068506, 40.6199034 ], "street" : "Avenue U", "zipcode" : "11234" }, "cuisine" : "Delicatessen" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e165"), "address" : { "building" : "469", "coord" : [ -73.961704, 40.662942 ], "street" : "Flatbush Avenue", "zipcode" : "11225" }, "cuisine" : "Hamburgers" }
+{ "ok" : 1 }
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("63774b70e8b54b7ff503e167"),
+		ObjectId("63774b70e8b54b7ff503e168"),
+		ObjectId("63774b70e8b54b7ff503e169"),
+		ObjectId("63774b70e8b54b7ff503e16a"),
+		ObjectId("63774b70e8b54b7ff503e16b")
+	]
+}
+books
+listingsAndReviews
+posts
+restaurants
+{ "_id" : ObjectId("63774b70e8b54b7ff503e16a"), "name" : "Barra da Tijuca beach house", "accommodates" : 16 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e16b"), "name" : "DOWNTOWN VIP MONTREAL ,HIGH END DECOR,GOOD VALUE..", "accommodates" : 16 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e168"), "name" : "Kaena O Kekai", "accommodates" : 16 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e167"), "name" : "House close to station & direct to opera house....", "accommodates" : 16 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e169"), "name" : "Great Complex of the Cellars", "accommodates" : 16 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e162"), "name" : "Riviera Caterer", "avgGrade" : null }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e163"), "name" : "Wilken'S Fine Food", "avgGrade" : null }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e164"), "name" : "Kosher Island", "avgGrade" : null }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e165"), "name" : "Wendy'S", "avgGrade" : null }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e166"), "name" : "Morris Park Bake Shop", "avgGrade" : null }
+{ "totalChinese" : 1 }
+{ "ok" : 1 }
+{
+	"acknowledged" : true,
+	"insertedIds" : [
+		ObjectId("63774b70e8b54b7ff503e16c"),
+		ObjectId("63774b70e8b54b7ff503e16d"),
+		ObjectId("63774b70e8b54b7ff503e16e"),
+		ObjectId("63774b70e8b54b7ff503e16f"),
+		ObjectId("63774b70e8b54b7ff503e170")
+	]
+}
+{ "_id" : ObjectId("63774b70e8b54b7ff503e16c"), "year" : 2008, "title" : "Star Wars: The Clone Wars" }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e16d"), "title" : "Robot Chicken: Star Wars", "year" : 2007 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e16e"), "title" : "Star!", "year" : 1968 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e16f"), "title" : "Star", "year" : 2001 }
+{ "_id" : ObjectId("63774b70e8b54b7ff503e170"), "year" : 1977, "title" : "Star Wars: Episode IV - A New Hope" }
+{ "ok" : 1 }
+
+books
+listingsAndReviews
+movies
+notes
+posts
+properties_by_type
+restaurants
+true
+
+{
+	"_id" : ObjectId("63774d9a905e84b3a789ca72"),
+	"title" : "Post Title 2",
+	"body" : "Body of post.",
+	"category" : "Event",
+	"likes" : 3,
+	"tags" : [
+		"news",
+		"events"
+	],
+	"date" : "Fri Nov 18 2022 09:17:14 GMT+0000 (UTC)"
+}
+
+[Execution complete with exit code 0]
